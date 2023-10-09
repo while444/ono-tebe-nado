@@ -22,7 +22,7 @@
               </ul>
             </nav>
             <div class="header__logo">
-              <a><img src="images/logo-black.svg" alt="logo" class="header__logo-img"></a>
+              <a href="#"><img src="images/logo-black.svg" alt="Логотип" class="header__logo-img"></a>
             </div>
             <address class="header__address">
               <a href="tel:+99995555555">+9 999 555 5555</a><br>
@@ -33,81 +33,88 @@
           </div>
         </div>
     </header>
-      <main class="cover">
-        <div class="container">
-          <div class="overlay"></div>
-        <h1 class="cover__title">
-          <span class="aligned-text"><span class="no-letter-spacing">О<span class="letter-spacing-extended">но</span></span></span>
-          <span class="aligned-text_center"><span class="no-letter-spacing">Те<span class="letter-spacing-extended">бе</span></span></span>
-          <span class="aligned-text_right"><span class="letter-spacing-extended">Н<span class=" no-letter-spacing">адо</span></span></span>
-        </h1>
-        <div class="cover__description">
-          <h4 class="cover__description-text">Аукцион вещей, в которые никто не верил</h4>
-          <button class="bet__button">Сделать ставку</button>
-        </div>
-        </div>
-    </main>
-        <section class="lots">
+      <main class="main">
+        <section class="cover">
           <div class="container">
-            <h2 class="lots__heading">Лоты</h2>
-          <ul class="lots__card-list">
-            <li class="lots__card-list-item">
-              <a href="#" class="card-link">
-                <div class="card card_type_film">
-                  <div class="overlay"></div>
-                  <h4 class="card__title">Фильм режиссёра, который  бросил киношколу</h4>
-                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-                </div>
-              </a>
-            </li>
-            <li class="lots__card-list-item">
-              <a href="#" class="card-link">
-                <div class="card card_type_book">
-                  <div class="overlay"></div>
-                  <h4 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h4>
-                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-                </div>
-              </a>
-            </li>
-            <li class="lots__card-list-item">
-              <a href="#" class="card-link">
-                <div class="card card_type_picture">
-                  <div class="overlay"></div>
-                  <h4 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h4>
-                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-                </div>
-              </a>
-            </li>
-          </ul> 
-          <a href="#" class="lots__look-more-link">посмотреть больше</a>
+            <div class="overlay"></div>
+          <h1 class="cover__title">
+            <span class="aligned-text"><span class="no-letter-spacing">О<span class="letter-spacing-extended">но</span></span></span>
+            <span class="aligned-text_center"><span class="no-letter-spacing">Те<span class="letter-spacing-extended">бе</span></span></span>
+            <span class="aligned-text_right"><span class="letter-spacing-extended">Н<span class=" no-letter-spacing">адо</span></span></span>
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+            <button type="button" class="bet__button">Сделать ставку</button>
           </div>
-        </section> 
-        <section class="about">
-          <div class="container">
-            <!-- Я немного изменил структуру для того чтобы выровнять элементы с помощью флекса, так как не сумел сделать это нормально используя грид -->
-            <div class="about__column"> 
-              <div class="about__logo">
-                <img src="images/logo-white.svg" alt="logo" class="about__logo-img">
+          </div>
+      </section>
+          <section class="lots">
+            <div class="container">
+              <h2 class="lots__heading">Лоты</h2>
+            <ul class="lots__card-list">
+              <li class="lots__card-list-item">
+                <a href="#" class="card-link">
+                  <article>
+                    <div class="card card_type_film">
+                      <div class="overlay"></div>
+                      <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
+                      <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                    </div>
+                  </article>
+                </a>
+              </li>
+              <li class="lots__card-list-item">
+                <a href="#" class="card-link">
+                  <article>
+                    <div class="card card_type_book">
+                      <div class="overlay"></div>
+                      <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                      <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                    </div>
+                  </article>
+                </a>
+              </li>
+              <li class="lots__card-list-item">
+                <a href="#" class="card-link">
+                  <article>
+                    <div class="card card_type_picture">
+                      <div class="overlay"></div>
+                      <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                      <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                    </div>
+                  </article>
+                </a>
+              </li>
+            </ul> 
+            <a href="#" class="lots__look-more-link">посмотреть больше</a>
+            </div>
+          </section> 
+          <section class="about">
+            <div class="container">
+              <!-- Я немного изменил структуру для того чтобы выровнять элементы с помощью флекса, так как не сумел сделать это нормально используя грид -->
+              <div class="about__column"> 
+                <div class="about__logo">
+                  <img src="images/logo-white.svg" alt="Логотип" class="about__logo-img">
+                </div>
+                <h2 class="about__title">Об аукционе</h2>
               </div>
-              <h2 class="about__title">Об аукционе</h2>
+              <div class="about__text">
+                <p class="about__text-p about__text-padding-bottom">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+                <p class="about__text-p">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+              </div>
             </div>
-            <div class="about__text">
-              <p class="about__text-p about__text-padding-bottom">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-              <p class="about__text-p">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
-            </div>
-          </div>
-        </section> 
-
+          </section> 
+      </main>
         <footer class="footer">
           <div class="container">
             <div class="footer__menu">
-              <address class="header__address">
+              <address class="footer__address">
                 <a href="tel:+99995555555">+9 999 555 5555</a><br>
                 <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
                 наб. Принсенграхт 263-265,<br> 
                 Амстердам
               </address>
-              <nav class="footer__menu">
+              <nav>
                 <ul class="footer__menu-list">
                   <li class="footer__menu-list-item">
                     <a href="#" class="footer__menu-link footer__menu-link-active">главная</a>
